@@ -10,10 +10,11 @@ Missing semicolons
 
 Type mismatch
 
-int x = "10"; // ❌ compile-time error
+int x = "10"; 
+//  compile-time error
 
 
-✅ Fixed by the compiler before running.
+>> Fixed by the compiler before running.
 
 # 2. Runtime Errors (Exceptions)
 
@@ -40,11 +41,12 @@ The app runs, but gives wrong results
 
 Example:
 int sum(int a, int b) {
-  return a - b; // ❌ logic error
+  return a - b; 
+  //  logic error
 }
 
 
-⚠️ Hardest to detect — fixed by testing and debugging.
+ Hardest to detect — fixed by testing and debugging.
 
 # 4. API / Network Errors
 
