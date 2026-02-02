@@ -48,7 +48,7 @@ TokenStorage.clearTokens()
 
 No API calls here. This is pure local storage.
 
-#📁 refresh_token/
+# 📁 refresh_token/
 
 Responsibility:
 
