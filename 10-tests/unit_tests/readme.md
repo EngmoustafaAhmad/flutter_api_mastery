@@ -33,3 +33,22 @@
 ---
 
 ## 🏗️ Structure مقترح
+
+
+unit_tests/
+
+├── domain/
+
+│ ├── usecases/
+
+│ └── entities/
+
+│
+├── data/
+
+│ └── repositories/
+
+│
+└── presentation/
+
+└── viewmodels/
